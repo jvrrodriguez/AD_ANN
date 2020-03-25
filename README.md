@@ -205,7 +205,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Javier Rodriguez-Perez** - *Initial work* - [PurpleBooth](https://github.com/jvrrodriguez)
+* **Javier Rodriguez-Perez** - *Initial work* - [jvrrodriguez](https://github.com/jvrrodriguez)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

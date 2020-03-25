@@ -1,12 +1,12 @@
-# ADPerformance: calculate and return performance metrics
+    # ADPerformance: calculate and return performance metrics
 # output of regression/classification method:
 # Binary Matrix of known anomalies, each column corresponds to a variable
 ADPerformance2 <- function(Output, Truth, print_out = T){
-  # pm <- setNames(data.frame(matrix(ncol = 12, nrow = 0)),
+  # pm <- setNames(data.frame(matrix(ncol = 14, nrow = 0)),
   #                c("TN", "FN", "FP", "TP", "Accuracy", "Error_Rate", "Sensitivity",
   #                  "Specificity", "Precision", "Recall", "F_Measure", "Optimised_Precision"))
   pm <- setNames(data.frame(matrix(ncol = 12, nrow = 0)),
-                 c("TN", "FN", "FP", "TP", "Accuracy", "Error_Rate", "Geometric mean", "NPV", "PPV", "bal_Accuracy", "f1", "MCC"))
+                 c("TN", "FN", "FP", "TP", "acc", "err", "sn", "sp", "GM", "NPV", "PPV", "b_acc", "f1", "MCC"))
   j <- 1
   
   Output <- Output[!is.na(Output),]
